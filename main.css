@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 1918px;
+    height: 935px;
+    display: flex;
+}
+.task-bar{
+    width: 150px;
+    background-color: #191718;
+    padding: 0;
+}
+.task-bar-list{
+    margin-top:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.task-bar-item{
+    display: flex;
+
+    width: 100%;
+    height: 44px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 700;
+    border-bottom: 1px solid #5C5C5C;
+}
+.task-bar-title{
+    display: block;
+    height: 19px;
+    width: 100%;
+    margin: 14px 0 11px 16px;
+}
+
+.container{
+    flex: 1;
+ }
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-img{
+    display: block;
+    height: 122px;
+    width: 310px;
+    margin-top: 20px;
+   
+}
+.intro-wrap{
+    width:1510px;
+    height: 210px;
+    margin-top: 30px;
+    background-color: 
+    #EFEFEF;
+    text-align: center;
+}
+.intro{  
+    display: flex;
+    justify-content: center;  
+
+}
+.intro-header{
+    display: block;
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+.intro-content{
+    display: flex;
+    margin: auto;
+    width: 972px;
+    margin-top: 18px;
+}
+.content-header{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.content{
+    display: flex;
+    width:1510px;
+    margin: auto;
+    justify-content: space-between;
+
+ 
+}
+.content-wrap{
+    margin: 40px 0 183px 0;
+
+    height: 252px;
+    width: 470px;
+    left: 279px;
+    top: 1360px;
+    border-radius: 0px;
+
+}
+.content-item{
+    display: flex;
+
+
+
+}
+.content-img{
+    margin-right: 16px;
+    height: 118px;
+ 
+
+}
+.content-text{
+ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0;
+    text-align: left;
+
+}
+.footer{
+    display: flex;
+    margin: auto;
+    height: 79px;
+    width: 1510px;
+   
+
+
+
+}
+.footer-title{
+
+display: block;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+padding: 30px 0;
+
+}
