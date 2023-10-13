@@ -1,10 +1,27 @@
-.App {
-  text-align: center;
+@import './styles/_variable.scss';
+@import './styles/_customize.scss';
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  position: fixed !important;
+  z-index: 10;
+  width: 240px;
+  height: 65px;
+  border-bottom: 1px solid white;
+  padding-left: 15px;
+  background-color: #001529;
+  color: white;
+}
+.header{
+  position: fixed !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  object-fit: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,133 @@
+@import "./_variable.scss";
+
+/* Customize File Upload */
+.ant-upload-list {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Customize Table */
+.ant-table-thead>tr>th {
+    background-color: #031428 !important;
+    color: white !important;
+    border-inline-end: 1px solid white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ant-table-row:nth-child(even) {
+    background: #eef6ff;
+}
+
+/* Customize Form */
+.ant-form-item {
+    margin: 0 0 10px;
+}
+
+.ant-form-item .ant-form-item-label {
+    padding: 0 0 2px;
+}
+
+.ant-form-item-with-help .ant-form-item-explain {
+    min-height: 0;
+}
+
+.custom-file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 20%;
+    height: 100%;
+}
+
+.custom-file-input::before {
+    content: "0000";
+    display: inline-block;
+    cursor: pointer;
+    height: 100%;
+}
+
+/* Customize Tag */
+.ant-tag {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.anticon {
+    cursor: pointer;
+}
+
+.ant-input[disabled],
+.ant-input-number-disabled,
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    color: unset;
+}
+
+*::-webkit-scrollbar {
+    width: 3px;
+    height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #031428;
+}
+
+.ant-btn-ghost {
+    background-color: rgb(169, 169, 169);
+}
+
+.ant-form-item-required::before {
+    content: none !important;
+}
+
+.ant-form-item-required::after {
+    color: #ff4d4f;
+    content: "*" !important;
+}
+
+.ant-card {
+    box-shadow: 1px 1px 15px rgb(165, 165, 165);
+}
+
+.ant-modal-header {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.ant-modal-title {
+    color: #00b96b !important;
+}
+
+.ant-layout-header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff !important;
+    box-shadow: 1px 1px 15px rgb(165, 165, 165);
+    padding: 15px !important;
+    position: fixed;
+    width: calc(100% - 240px);
+    z-index: 1;
+}
+
+.ant-menu{
+    margin-top: 64px;
+}
+
+.ant-layout-sider {
+    position: fixed ;
+    z-index: 2;
+    height: 100vh;
+}
+
+.ant-layout-content {
+    margin-top: 65px;
+    padding: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
